@@ -1,0 +1,295 @@
+.banner {
+    height: 420px;
+    background-color: #1c036c;
+}
+
+.banner-big {
+    position: relative;
+}
+
+.banner-small {
+    width: 190px;
+    height: 420px;
+    background-color: rgba(0,0,0,.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+}
+
+.banner-small ul li a {
+    display: block;
+    width: 170px;
+    height: 42px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 42px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.banner-small a i {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.banner-small ul li a:hover {
+    color: #00a4ff;
+}
+
+.circle {
+    width: 176px;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    margin-left: -88px;
+    text-align: center;
+}
+
+.circle li {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: rgba(255,255,255,.3);
+    margin: 0 5px;
+    border-radius: 6px;
+    transition: width 0.4s;
+    cursor: pointer;
+}
+
+.circle li:hover {
+    width: 20px;
+    background-color: #fff;
+}
+
+.tuijian {
+    height: 60px;
+    margin-top: 10px;
+    box-shadow: 0 1px 5px rgba(0,0,0,.3);
+    padding: 0 30px;
+}
+
+.tui-l {
+    line-height: 60px;
+    font-size: 16px;
+}
+
+.tui-l h5 {
+    font-weight: 700;
+    color: #00a4ff;
+    float: left;
+}
+
+.tui-l i {
+    margin: 0 30px;
+    float: left;
+    color: #bfbfbf;
+}
+
+.tui-l a {
+    float: left;
+    color: #050505;
+}
+
+.rel-r {
+    font-size: 14px;
+    line-height: 60px;
+    color: #00a4ff;
+    margin-right: 61px;
+}
+a.rel-r:hover {
+    color: #00a4ff;
+}
+
+.tui-details {
+    height: 600px;
+    margin-top: 30px;
+}
+.tui-d-hd {
+    height: 40px;
+}
+
+.tui-d-hd h3 {
+    float: left;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.tui-d-hd a {
+    float: right;
+    font-size: 14px;
+    color: #a5a5a5;
+    margin-right: 30px;
+}
+
+.tui-d-bd li {
+    width: 228px;
+    height: 270px;
+    background-color: #ffffff;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    float: left;
+}
+
+.tui-d-bd li:nth-child(5n) {
+    margin-right: 0;
+}
+
+.tui-d-bd li div:first-child {
+    height: 155px;
+    width: 228px;
+    overflow: hidden;
+}
+
+.tui-d-bd li div img {
+    width: 233px;
+    height: 155px;
+}
+
+.tui-d-bd li h4 {
+    font-size: 14px;
+    color: #050505;
+    padding: 20px;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+.tui-d-bd li p {
+    font-size: 12px;
+    color: #999999;
+    padding-left: 20px;
+}
+
+.tui-d-bd li p span {
+    color: #ff7c2d;
+}
+
+.tui-d-bd li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.tui-d-bd li:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 2px 9px rgba(0,0,0,.3);
+}
+
+.tui-d-bd li:hover img {
+    margin-left: -5px;
+}
+
+.middle {
+    height: 310px;
+    margin-top: 30px;
+}
+
+.middle .items {
+    font-size: 16px;
+    color: #868686;
+    margin: 0 290px;
+    line-height: 26px;
+}
+
+.middle .items a {
+    float: left;
+    margin-right: 70px;
+}
+
+.middle .items a:first-child {
+    color: #00a4ff;
+}
+
+.tui-e-bd li {
+    height: 270px;
+    background-color: #ffffff;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    float: left;
+}
+
+.tui-e-bd li:nth-child(5n) {
+    margin-right: 0;
+}
+
+.tui-e-bd li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.tui-e-bd li{
+    transform: translateY(-5px);
+    box-shadow: 0 2px 9px rgba(0,0,0,.3);
+}
+
+.teacher {
+    height: 310px;
+    margin-top: 30px;
+    margin-bottom:100px;
+}
+
+.teacher .items {
+    font-size: 16px;
+    color: #868686;
+    margin: 0 290px;
+    line-height: 26px;
+}
+
+.teacher .items a {
+    float: left;
+    margin-right: 70px;
+}
+
+.teacher .items a:first-child {
+    color: #00a4ff;
+}
+
+.tui-e-hd h3{
+    float: left;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.tui-e-hd{
+    width: 1204px;
+    height: 56px;
+    line-height: 45px;
+    overflow: hidden;
+}
+
+.jieshao{
+    left: 0px;
+    top: 198px;
+    position: absolute;
+    width: 228px;
+    height: 122px;
+    background:rgba(0,0,0,1);
+    opacity:0.5;
+}
+
+.jieshao h4{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    float: left;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.jieshao h5{
+    font-weight: normal;
+    margin-top: 23px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.jieshao p{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #ffffff;
+}
